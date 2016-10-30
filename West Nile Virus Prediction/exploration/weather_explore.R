@@ -1,0 +1,5 @@
+library(Metrics)
+library(data.table)   
+setwd("E:/Dropbox/kaggle/West Nile Virus Prediction")
+weather <- fread("data/weather.csv")
+str(weather)
